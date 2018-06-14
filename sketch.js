@@ -36,7 +36,7 @@ function preload(){
 	zombieN=loadImage('images/normal.png');
 	zombieB=loadImage('images/bucket.png');
 	zombieF=loadImage('images/frank.png');
-	chichar=loadImage('images/peas.png');
+	chichar=loadImage('images/Peas.png');
 	sol=loadImage('images/sun.png');
 	soles=loadImage('images/soles.png');
 	zombies=loadImage('images/zombies.png');
