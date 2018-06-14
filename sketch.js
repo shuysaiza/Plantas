@@ -304,7 +304,7 @@ const createBg = function(){
 	entities.push(bgEntity);
 }
 
-createPlantas = function(){
+const createPlantas = function(){
 	let width=0;
 	let crop={
 		x:0,
@@ -341,7 +341,7 @@ const createZombieN = function(casilla){
 	let casillaY=coordenadasEnY(yPos+height/2);
 	let zombiEn = new NormalZEntity(zombieN, width-109,yPos, 50, height,2);
 
-	zombiEn.speedX=-1;
+	zombiEn.speedX=-0.5;
 	entities.push(zombiEn);
 }
 
@@ -351,7 +351,7 @@ const createZombieB = function(casilla){
 	let casillaY=coordenadasEnY(yPos+height/2);
 	let zombiEn = new BucketZEntity(zombieB, width-posX, yPos,50,height,4);
 
-	zombiEn.speedX=-1;
+	zombiEn.speedX=-0.5;
 	entities.push(zombiEn);
 }
 
@@ -365,7 +365,7 @@ const createZombieF = function(casilla){
 
 	let zombiEn = new FrankZEntity(zombieF, width-209,yPos,188,height,6);
 
-	zombiEn.speedX=-1;
+	zombiEn.speedX=-0.5;
 	entities.push(zombiEn);
 }
 
